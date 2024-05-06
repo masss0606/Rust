@@ -180,7 +180,7 @@ async fn main() {
 
 // Second stage: Average distance calculation
     let avg_distance = calculate_average_distance(&graph);
-    println!("平均距离: {}", avg_distance);
+    println!("Average distance: {}", avg_distance);
 
 // Stage 3: Degree distribution analysis
     degree_distribution_analysis(&graph);
